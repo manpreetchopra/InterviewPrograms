@@ -9,7 +9,7 @@ import java.util.Set;
  * @author macho
  *
  */
-public class DuplicateCharactersInString {
+public class _3_DuplicateCharactersInString {
 
 	public static void main(String[] args) {
 		String duplicatedStr = "JavaJ2EE";

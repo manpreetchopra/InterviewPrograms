@@ -5,7 +5,7 @@ package com.java.programs;
  * @author macho
  *
  */
-public class ReverseString_1 {
+public class _1_ReverseString {
 
 	public static void main(String[] args) {
 		String str = "MyJava";

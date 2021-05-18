@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author macho
  *
  */
-public class RemoveWhiteSpaces {
+public class _2_RemoveWhiteSpaces {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
