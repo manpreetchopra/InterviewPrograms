@@ -7,7 +7,7 @@ import java.util.Arrays;
  * method, which removes all the even elements from the array and returns back
  * updated array.
  */
-public class CheckRemoveEven {
+public class _01_CheckRemoveEven {
 
 	public static void main(String[] args) {
 
