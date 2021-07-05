@@ -1,4 +1,4 @@
-package edu.ace.coding.array;
+package edu.ace.coding.ds.array;
 
 /**
  * Given two sorted arrays, merge them into one array, which should also be

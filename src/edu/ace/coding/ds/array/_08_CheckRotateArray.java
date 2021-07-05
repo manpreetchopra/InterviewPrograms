@@ -1,4 +1,4 @@
-package edu.ace.coding.array;
+package edu.ace.coding.ds.array;
 
 import java.util.Arrays;
 

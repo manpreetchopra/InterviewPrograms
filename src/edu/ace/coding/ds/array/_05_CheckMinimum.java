@@ -1,4 +1,4 @@
-package edu.ace.coding.array;
+package edu.ace.coding.ds.array;
 
 /**
  * Find minimum value in array
