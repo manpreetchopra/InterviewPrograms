@@ -19,8 +19,7 @@ public class _17_MoveZeros {
 	    
 		  //1 , 10 , 20 , 0 , 59 , 63 , 0 , 88 , 0 
 		  //[1, 10, -1, 11, 5, 0, -7, 0, 25, -35]
-		    int pivot = 0;
-		    int pIndex = 0;
+		   
 
 		    int read = A.length-1;
 		    int write = A.length -1;
