@@ -36,11 +36,15 @@ public class _22_MaxSumSubArrayOfSizeK {
 		for(int i=0; i<arr.length; i++) {
 			sum =sum+arr[i];
 			
-			if(i>k) {
+			if( i >= k-1) {
+				
+				if(i >= k)
+					sum = sum- arr[i-k];
+				
 				if(sum>maxSum) {
 					maxSum = sum;
 				}
-				sum = sum+arr[i] - arr[i-k];
+				
 				
 			}
 		}
