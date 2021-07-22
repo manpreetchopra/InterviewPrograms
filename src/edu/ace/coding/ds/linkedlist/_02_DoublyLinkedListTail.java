@@ -2,7 +2,7 @@ package edu.ace.coding.ds.linkedlist;
 
 public class _02_DoublyLinkedListTail<T> {
 	
-	class Node{
+	public class Node{
 		public T data;
 		public Node nextNode;
 		public Node prevNode;

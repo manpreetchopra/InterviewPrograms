@@ -12,13 +12,13 @@ public class _00_SinglyLinkedList<T> {
 	 * Basic datastructure implementation
 	 */
 
-	class Node {
-		private T data;
-		private Node nextNode;
+	public class Node {
+		public T data;
+		public Node nextNode;
 	}
 
-	private int size;
-	private Node headNode;
+	public int size;
+	public Node headNode;
 
 	public _00_SinglyLinkedList() {
 		this.size = 0;
@@ -174,5 +174,25 @@ public class _00_SinglyLinkedList<T> {
 		}
 	}
 	
+	public void deleteAtEnd() {
+		if(isEmpty()) {
+			return;
+		}
+		
+		Node currNode = headNode;
+		Node prevNode = null;
+		
+		while(currNode.nextNode != null) {
+			prevNode = currNode;
+			currNode = currNode.nextNode;
+		}
+		
+		if(prevNode != null) {
+		prevNode.nextNode = null;
+		}else {
+			deleteAtHead();
+		}
+	}
 	
+
 }

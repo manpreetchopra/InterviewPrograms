@@ -2,7 +2,7 @@ package edu.ace.coding.ds.linkedlist;
 
 public class _00_Main {
 	public static void main(String[] args) {
-		_00_SinglyLinkedList<Integer> sll = new _00_SinglyLinkedList<Integer>();
+		_00_SinglyLinkedListChallenges<Integer> sll = new _00_SinglyLinkedListChallenges<Integer>();
 	
 		/*
 	 	sll.insertAtHead(1);
@@ -17,6 +17,22 @@ public class _00_Main {
 		sll.insertAtEnd(3);
 		sll.insertAtEnd(4);
 		sll.insertAtEnd(5);
+		sll.printList();
+		
+		System.out.println(sll.length());
+		sll.deleteAtEnd();
+		sll.printList();
+	
+		sll.deleteAtEnd();
+		sll.printList();
+		
+		sll.deleteAtEnd();
+		sll.printList();
+		
+		sll.deleteAtEnd();
+		sll.printList();
+		
+		sll.deleteAtEnd();
 		sll.printList();
 	}
 
